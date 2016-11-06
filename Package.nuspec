@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Package</id>
+    <version>1.0.0-beta1</version>
+    <authors>leenux</authors>
+    <owners>leenux</owners>
+    <licenseUrl>https://github.com/leenux/GrpcPool/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/leenux/GrpcPool</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>gRPC client pool for .Net.</description>
+    <releaseNotes>First create.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>grpc client pool .net core</tags>
+    <dependencies>
+      <dependency id="Google.Api.Gax.Grpc" version="1.0.0-beta04" />
+    </dependencies>
+    <references>
+      <reference file="grpc_csharp_ext.x86.dll" />
+      <reference file="grpc_csharp_ext.x64.dll" />
+    </references>
+  </metadata>
+</package>

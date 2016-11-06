@@ -17,8 +17,10 @@ This sample is a library contains an gRPC client that you can use to connect to 
 * Mono (for Linux O.S.)
 * .Net Core 1.0
 
-Soon as the binaries will be available as package from Nuget web site.
- 
+*Bin package install*
+```
+Install-Package GrpcPool -Pre
+```
 
 For all information about gRPC, please visit official web site  http://www.grpc.io/.
 
