@@ -85,7 +85,7 @@ await Task.Run(async () =>
 });
 ```
 
-Following an example of client to sync get SSL pool :
+Following an example of client to async get SSL pool :
 
 ```
 await Task.Run(async () =>
