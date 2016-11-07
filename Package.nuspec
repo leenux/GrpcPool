@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Package</id>
-    <version>1.0.0-beta1</version>
+    <version>1.0.0</version>
     <authors>leenux</authors>
     <owners>leenux</owners>
     <licenseUrl>https://github.com/leenux/GrpcPool/blob/master/LICENSE</licenseUrl>
@@ -13,11 +13,16 @@
     <copyright>Copyright 2016</copyright>
     <tags>grpc client pool .net core</tags>
     <dependencies>
-      <dependency id="Google.Api.Gax.Grpc" version="1.0.0-beta04" />
+      <dependency id="BouncyCastle" version="1.7.0" />
+      <dependency id="Google.Apis" version="1.16.0" />
+      <dependency id="Google.Apis.Auth" version="1.16.0" />
+      <dependency id="Google.Apis.Core" version="1.16.0" />
+      <dependency id="Grpc.Auth" version="1.0.1" />
+      <dependency id="Grpc.Core" version="1.0.1" />
+      <dependency id="log4net" version="2.0.3" />
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+      <dependency id="System.Interactive.Async" version="3.0.0" />
+      <dependency id="Zlib.Portable.Signed" version="1.11.0" />
     </dependencies>
-    <references>
-      <reference file="grpc_csharp_ext.x86.dll" />
-      <reference file="grpc_csharp_ext.x64.dll" />
-    </references>
   </metadata>
 </package>

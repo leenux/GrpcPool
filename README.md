@@ -19,7 +19,7 @@ This sample is a library contains an gRPC client that you can use to connect to 
 
 *Bin package install*
 ```
-Install-Package GrpcPool -Pre
+Install-Package GrpcPool
 ```
 
 For all information about gRPC, please visit official web site  http://www.grpc.io/.
