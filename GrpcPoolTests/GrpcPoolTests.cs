@@ -6,9 +6,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Helloworld;
 using Grpc.Core;
-using Google.Api.Gax.Grpc;
+using Helloworld;
 
 namespace GrpcPool.Tests
 {
@@ -60,7 +59,7 @@ namespace GrpcPool.Tests
             Console.WriteLine("Greeting: " + reply.Message);
 
             channel.ShutdownAsync().Wait();
-            Assert.AreEqual(reply.Message,"leenux=Hello you");
+            Assert.AreEqual(reply.Message, "leenux=Hello you");
         }
 
         [TestCleanup]
